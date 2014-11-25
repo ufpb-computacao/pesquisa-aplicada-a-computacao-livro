@@ -2,167 +2,86 @@
 
 :cap: cap1
 :img: images/{cap}
-:online: {gitrepo}/blob/master/livro/code/{cap}
-:local: code/{cap}
 
-.Objetivos do capítulo
+["quote", "John Wheeler", "Princeton University, the scientist who explained quasars and named black holes"]
 ____
-Ao final deste capítulo você deverá ser capaz de:
-
-1.  *Lembrar* as três hipóteses de previsão e listar os padrões típicos
-de comportamento de dados históricos, *reproduzindo-os* na realização de
-exercícios teóricos, envolvendo os nomes das técnicas de previsão mais
-utilizadas em processos estacionários, com tendência e com
-sazonalidade.
-
-2.  *Entender*  as  diferenças  entre  as  técnicas existentes,
-*comparando* cada uma com as diferentes hipóteses e padrão de dados.
-
-3.  *Escolher* e aplicar, de forma consciente, uma das técnicas,
-*implementando* um programa específico ou utilizando um aplicativo
-disponível  no mercado.
-
-4.  *Analisar*  as  diferentes  medidas  de  erro, *diferenciando-as*,
-*atribuindo* significados de importância e *entendendo* em quais
-circunstâncias  cada uma delas é mais adequada.
-
-5.  *Avaliar* os resultados obtidos por meio do emprego da técnica de
-previsão, *estimando* o impacto da acuracidade e das incertezas
-associadas a todo o processo.
+``'Stick up for something' – that’s a wonderful
+way of saying what science is all about.''
 
 ____
 
-[cols="^13,^10,^10,^10,^10,^10,^10", grid="cols",frame="none"]
-|====
-1.2+s| Conhecimento 6+s| Processo Cognitivo
-| Lembrar         |Entender  | Aplicar |  Analisar | Avaliar | Criar
-| Factual  |Objetivo 1|||||
-| Conceitual |Objetivo 2|Objetivo 3||||
-| Procedural |||Objetivo 4|||
-| Metacognitivo ||||||Objetivo 5
-|  2+s|Conhecimento 2+s|Competência 2+s|Habilidade
-|====
 
-A *elaboração dos objetivos de aprendizagem* e *divisão das seções* do
-capítulo seguem a taxonomia de Bloom revisada, para
-compreender esta classificação recomendo a leitura de  ``Taxonomia de
-Bloom: revisão teórica e apresentação das adequações do instrumento
-para definição de objetivos instrucionai'', disponível em
-http://www.scielo.br/pdf/gp/v17n2/a15v17n2.pdf.
+=== Introdução
+Esta disciplina tem o objetivo de orientar o aluno em como conduzir
+pesquisa científica na área da Ciência da Computação, englobando diferentes
+aspectos referentes a esta tarefa.
 
-.Dimensão do conhecimento da Taxonomia de Bloom revisada
-image::{img}/bloom.eps[]
+Um trabalho de pesquisa exige metodologia científica para a produção
+de conhecimento. A construção de um projeto de pesquisa é um processo que requer
+muita disciplina, através de reflexões sistemáticas sobre a realidade empírica a
+ser pesquisada e, a revisão de literatura pertinente ao tema que se pretende estudar.
+
+Não se trata apenas de encontrar uma explicação ainda que geral, do
+fenômeno estudado, mas definir o princípio que fundamenta essa explicação geral.
+Para tal é necessária muita leitura e fundamentação e embasamento teórico.
 
 
-=== Terminologia
+=== Ementa
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+A ementa deste curso envolverá:
 
-- Conhecimento da Terminologia; 
+- Aprendizado sobre busca e leitura de artigos científicos: Ao realizar pesquisa
+é preciso fazer uma pesquisa bibliográfica sobre o tema de estudo. Para tal
+precisa-se buscar esse material bibliográfico, e aprender a ler a bibliografia
+de forma crítica;
 
-=== Detalhes e elementos específicos
+- Noções básicas de métodos;
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+- Projetos e relatórios;
 
-- Conhecimento de detalhes e elementos específicos.
+- Monografias, TCC, TGI, Dissertações e Teses;
 
-=== Classificação e categorização
+- Elaboração e apresentação de artigo científico;
 
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+- Normas da ABNT;
 
-- Conhecimento de classificação e categorização; 
+- Patentes;
 
-=== Princípios e generalizações
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+- Escrita de Proposta de Projeto de Pesquisa para Financiamento; e
 
-- Conhecimento de princípios e generalizações; 
+- Atividades práticas.
+
+=== Referências da disciplina
+
+As referências recomendadas são:
+- Como Fazer Projetos, Relatórios, Monografias, Dissertações e Teses (2005).
+Maria Marly de Oliveira. Editora Campos/Elsevier.
 
 
-=== Teorias, modelos e estruturas
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
 
-- Conhecimento de teorias, modelos e estruturas.
+- Como Fazer Pesquisa Qualitativa (2007). Maria Marly de Oliveira. Editora
+Vozes.
 
-=== Conteúdos específicos, habilidades e algoritmos
-Conhecimento Procedural:: relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+image::{img}/livro-como-fazer-projetos.jpeg[scaledwidth="30%"]
 
-- Conhecimento de conteúdos específicos, habilidades e algoritmos; 
+- Metodologia de Pesquisa para Ciência da Computação. Autor: WAZLAWICK,
+RAUL SIDNEI. Editora: CAMPUS; e
 
-=== Técnicas específicas e métodos
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+image::{img}/livro-metdologia-de-pesquisa.jpeg[scaledwidth="30%"]
 
-- Conhecimento de técnicas específicas e métodos; 
 
-=== Critérios e percepção de como e quando usar um procedimento específico.
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+- Notas de aulas.
 
-- Conhecimento de critérios e percepção de como e quando usar um procedimento específico.
+=== Avaliação
 
-=== Conhecimento estratégico
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+A avaliação dos alunos na disciplina envolverá:
 
-- Conhecimento estratégico; 
+Escrita de Artigo Científico do tipo::
++
+--
+* Visão geral sobre um tema, ou
+* Estudos empíricos/analíticos.
+--
 
-=== Contextos preferenciais e situações de aprendizagem (estilos)
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
-
-- Conhecimento sobre atividades cognitivas  incluindo contextos preferenciais e situações de aprendizagem (estilos); 
-
-=== Autoconhecimento
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
-
-- Autoconhecimento
-
-=== Recapitulando
-
-Revisão do que foi aprendido. Não apresentar nada novo.
+Atividades Práticas::
+* Incluindo esboço de escrita de patente.
