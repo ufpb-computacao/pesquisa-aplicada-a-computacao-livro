@@ -1,9 +1,9 @@
-== Novo capítulo
+== Introdução
 
 :cap: cap1
 :img: images/{cap}
 
-["quote", "John Wheeler", "Princeton University, the scientist who explained quasars and named black holes"]
+["quote", "John Wheeler", "Princeton University, the scientist who explained quasars and named black holes."]
 ____
 ``'Stick up for something' – that’s a wonderful
 way of saying what science is all about.''
