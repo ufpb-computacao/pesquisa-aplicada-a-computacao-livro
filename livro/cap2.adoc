@@ -1,168 +1,128 @@
-== Novo capítulo
+== Pesquisa Bibliográfica
 
 :cap: cap2
 :img: images/{cap}
-:online: {gitrepo}/blob/master/livro/code/{cap}
-:local: code/{cap}
 
-.Objetivos do capítulo
+[quote, Samuel Johnson]
 ____
-Ao final deste capítulo você deverá ser capaz de:
-
-1.  *Lembrar* as três hipóteses de previsão e listar os padrões típicos
-de comportamento de dados históricos, *reproduzindo-os* na realização de
-exercícios teóricos, envolvendo os nomes das técnicas de previsão mais
-utilizadas em processos estacionários, com tendência e com
-sazonalidade.
-
-2.  *Entender*  as  diferenças  entre  as  técnicas existentes,
-*comparando* cada uma com as diferentes hipóteses e padrão de dados.
-
-3.  *Escolher* e aplicar, de forma consciente, uma das técnicas,
-*implementando* um programa específico ou utilizando um aplicativo
-disponível  no mercado.
-
-4.  *Analisar*  as  diferentes  medidas  de  erro, *diferenciando-as*,
-*atribuindo* significados de importância e *entendendo* em quais
-circunstâncias  cada uma delas é mais adequada.
-
-5.  *Avaliar* os resultados obtidos por meio do emprego da técnica de
-previsão, *estimando* o impacto da acuracidade e das incertezas
-associadas a todo o processo.
-
+``Há conhecimento de dois tipos: sabemos
+sobre um assunto, ou sabemos onde podemos
+buscar informação sobre ele.''
 ____
 
-[cols="^13,^10,^10,^10,^10,^10,^10", grid="cols",frame="none"]
-|====
-1.2+s| Conhecimento 6+s| Processo Cognitivo
-| Lembrar         |Entender  | Aplicar |  Analisar | Avaliar | Criar
-| Factual  |Objetivo 1|||||
-| Conceitual |Objetivo 2|Objetivo 3||||
-| Procedural |||Objetivo 4|||
-| Metacognitivo ||||||Objetivo 5
-|  2+s|Conhecimento 2+s|Competência 2+s|Habilidade
-|====
+=== Leitura de Artigo Científico
 
-A *elaboração dos objetivos de aprendizagem* e *divisão das seções* do
-capítulo seguem a taxonomia de Bloom revisada, para
-compreender esta classificação recomendo a leitura de  ``Taxonomia de
-Bloom: revisão teórica e apresentação das adequações do instrumento
-para definição de objetivos instrucionai'', disponível em
-http://www.scielo.br/pdf/gp/v17n2/a15v17n2.pdf.
-
-.Dimensão do conhecimento da Taxonomia de Bloom revisada
-image::{img}/bloom.eps[]
+Ao ler um artigo científico é preciso fazê-lo com:
 
 
-=== Terminologia
+- Foco,
+- Metodologia,
+- Criticismo,
+- Criando seu próprio método, e
+- Em busca de oportunidades de pesquisa.
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+=== Estruturação de Artigo Científico
 
-- Conhecimento da Terminologia; 
+Um artigo científico pode/deve conter as seguintes seções:
 
-=== Detalhes e elementos específicos
+1. Título;
+2. Informações sobre autores e sua filiação (instituição);
+3. Resumo/Abstract (em língua estrangeira);
+4. Palavras-chave;
+5. Introdução;
+6. Revisão Bibliográfica/Conceituação/Fundamentação Teórica;
+7. Apresentação do trabalho científico (abordagem/metodologia/estudo
+comparativo/);
+8. Apresentação da metodologia utilizada na pesquisa;
+9. Validação do trabalho científico: estudo de caso, experimentos, prova
+de conceito, etc.;
+10. Trabalhos Relacionados;
+11. Trabalhos Futuros;
+12. Conclusões;
+13. Referências; e
+14. Agradecimentos.
 
-Conhecimento Efetivo/Factual:: Relacionado ao conteúdo básico que 
-o discente deve dominar a fim de que consiga realizar e resolver 
-problemas apoiados nesse conhecimento. Relacionado aos fatos que 
-não precisam ser entendidos ou combinados, apenas reproduzidos 
-como apresentados.
+=== Pesquisa Bibliográfica
 
-- Conhecimento de detalhes e elementos específicos.
-
-=== Classificação e categorização
-
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de classificação e categorização; 
-
-=== Princípios e generalizações
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
-
-- Conhecimento de princípios e generalizações; 
+_Wikis_ (como a _Wikipedia_) são úteis e interessantes, mas não são
+exatamente fontes científicas. _Wikis_ servem como ponto de partida para uma
+pesquisa sobre determinado tema. Para uma pesquisa mais aprofundada, que o rigor
+científico exige, é necessário pesquisar por artigos científicos.
+Alguns engenhos de busca científicos são os listados a seguir:
 
 
-=== Teorias, modelos e estruturas
-Conhecimento Conceitual:: Relacionado à inter-relação dos 
-elementos básicos num contexto mais elaborado que os discentes 
-seriam capazes de descobrir. Elementos mais simples foram abordados 
-e agora precisam ser conectados. Esquemas, estruturas e modelos 
-foram organizados e explicados. Nessa fase, não é a aplicação de um 
-modelo que é importante, mas a consciência de sua existência.
+* CiteSeerX (Scientific Literature Digital Library and Search
+Engine) -- link:http://citeseerx.ist.psu.edu[]
 
-- Conhecimento de teorias, modelos e estruturas.
+* Google Scholar (Google Acadêmico) -- link:http://scholar.google.com.br[]
 
-=== Conteúdos específicos, habilidades e algoritmos
-Conhecimento Procedural:: relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+* Microsoft Academic Search -- link:http://academic.research.microsoft.com/[]
 
-- Conhecimento de conteúdos específicos, habilidades e algoritmos; 
+Outras fontes úteis são os portais, tais como:
 
-=== Técnicas específicas e métodos
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
 
-- Conhecimento de técnicas específicas e métodos; 
+* Periódicos da CAPES -- link:http://www.periodicos.capes.gov.br[]
 
-=== Critérios e percepção de como e quando usar um procedimento específico.
-Conhecimento Procedural:: Relacionado ao conhecimento de ``como 
-realizar alguma coisa'' utilizando métodos, critérios, algoritmos e 
-técnicas. Nesse momento, o conhecimento abstrato começa a ser 
-estimulado, mas dentro de um contexto único e não interdisciplinar.
+* Lecture Notes in Computer Science -- link:http://www.springer.com/computer/lncs?SGWID=0-164-0-0-0[]
 
-- Conhecimento de critérios e percepção de como e quando usar um procedimento específico.
+* IEEE (Institute of Electrical and Electronics Engineers) Publications and Standards -- link:http://www.ieee.org/publications_standards/index.html[]
 
-=== Conhecimento estratégico
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+* ACM (Association for Computer Machinery) -- link:http://www.acm.org/publications[]
 
-- Conhecimento estratégico; 
+=== Avaliação de Artigos Científicos
 
-=== Contextos preferenciais e situações de aprendizagem (estilos)
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+Existem muitas publicações de artigos, tanto nacionais como internacionais, em: 
 
-- Conhecimento sobre atividades cognitivas  incluindo contextos preferenciais e situações de aprendizagem (estilos); 
+- Conferências,
+- Simpósios,
+- Workshops, e
+- Revistas (Journals).
 
-=== Autoconhecimento
-Conhecimento Metacognitivo:: Relacionado ao reconhecimento da 
-cognição em geral e da consciência da amplitude e profundidade de 
-conhecimento adquirido de um determinado conteúdo. Em contraste 
-com o conhecimento procedural, esse conhecimento é relacionado 
-à interdisciplinaridade. A ideia principal é utilizar conhecimentos 
-previamente assimilados (interdisciplinares) para resolução de 
-problemas e/ou a escolha do melhor método, teoria ou estrutura.
+A questão é, como avaliá-las?
 
-- Autoconhecimento
+No Brasil, a CAPES (http://www.capes.gov.br) realiza uma avaliação
+denominada Qualisfootnote:[Link da Qualis: link:http://www.capes.gov.br/avaliacao/qualis[]].  
+Internacionalmente tem-se o Fator de Impacto (Impact Factor), como uma
+medida que reflete o número médio de citações de artigos publicados.
+Artigos em publicações com maior fator de impacto são em geral
+considerados pela comunidade científica, como artigos de melhor
+``qualidade''. Entretanto qualidade pode exigir uma avaliação mais
+subjetiva. Assim, estes índices Qualis ou Fator de Impacto, são guias
+que dão boas noções de avaliação, mas não são determinantes.
 
-=== Recapitulando
+=== Atividades
 
-Revisão do que foi aprendido. Não apresentar nada novo.
+==== Atividade 1
+
+Ler o artigo “Grandes Desafios da Computação” (versão português) que
+encontra-se disponível em: link:http://goo.gl/3cEcnf[].
+
+Os desafios mencionados são:
+
+1. Gestão da informação em grandes volumes de dados multimídia
+distribuídos,
+2. Modelagem computacional de sistemas complexos artificiais, naturais
+e sócio-culturais e da interação homem-natureza,
+3. Impactos para a área da computação da transição do silício para
+novas tecnologias,
+4. Acesso participativo e universal do cidadão brasileiro ao conhecimento,
+5. Desenvolvimento tecnológico de qualidade: sistemas disponíveis,
+corretos, seguros, escaláveis, persistentes e ubíquos.
+
+O aluno deverá escolher um dos desafios discutidos no artigo para:
+
+- Ler, e fazer um resumo
+
+==== Atividade 2 (Opcional)
+
+Acesse até portal de periódicos da CAPES (a UFPB tem acesso ao
+conteúdo):
+
+.Portal de Periódicos da CAPES: link:http://www.periodicos.capes.gov.br[]
+image::{img}/periodicos.eps[]
+
+O aluno deve realizar as seguintes atividades:
+
+- Navegar pelo portal para obter informação e se familiarizar;
+- Descrever como o portal está organizado em termos de
+estrutura, conteúdo, etc.
